@@ -1,0 +1,67 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+
+  background-color: gray;
+}
+
+h1 {
+  font-size: 4em;
+  color: black;
+  text-align: center;
+}
+
+#calendar-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+table {
+  margin: 1em 1em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  background-color: white;
+}
+caption {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+thead {
+  color: grey;
+  text-transform: capitalize;
+}
+
+thead th {
+  width: 25%;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+.table-caption {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-mom-birthday {
+  background-color: pink;
+}
+.bg-dad-birthday {
+  background-color: silver;
+}
+.bg-birthday {
+  background-color: gold;
+}
+.bg-holiday {
+  background-color: brown;
+}
